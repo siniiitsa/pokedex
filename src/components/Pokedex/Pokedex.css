@@ -1,0 +1,29 @@
+.Pokedex {
+  font-family: sans-serif;
+}
+
+.Pokedex-container {
+  max-width: 1000px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.Pokedex-win-message {
+  margin-bottom: 5px;
+  text-align: center;
+  color: green;
+}
+
+.Pokedex-lose-message {
+  margin-bottom: 5px;
+  text-align: center;
+  color: red;
+}
+
+.Pokedex-total-exp-message {
+  font-size: 15px;
+  text-align: center;
+}
